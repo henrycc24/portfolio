@@ -38,6 +38,7 @@ sections:
     media:
       url: /images/main-hero.svg
       altText: Engineering portfolio hero
+      imageClassName: sb-hero-float
       type: ImageBlock
     badge:
       label: ECE Portfolio
@@ -58,11 +59,13 @@ sections:
       text: Featured Research & Projects
       type: TitleBlock
     subtitle: Hardware-heavy engineering work across robotics, localization, power systems, and embedded platforms.
+    hoverEffect: shadow-plus-move-up
     limit: 4
     actions:
       - label: All Projects
         url: /projects/
         type: Link
+        style: secondary
     colors: bg-neutral-fg-dark
     styles:
       self:
@@ -71,6 +74,39 @@ sections:
           - pb-16
           - pl-16
           - pr-16
+  - subtitle: Tools & platforms across my projects
+    images:
+      - url: /images/icon1.svg
+        altText: Localization
+        type: ImageBlock
+      - url: /images/icon2.svg
+        altText: Embedded systems
+        type: ImageBlock
+      - url: /images/icon3.svg
+        altText: Robotics
+        type: ImageBlock
+      - url: /images/abstract-feature1.svg
+        altText: CAD
+        type: ImageBlock
+      - url: /images/abstract-feature2.svg
+        altText: Firmware
+        type: ImageBlock
+      - url: /images/abstract-feature3.svg
+        altText: Power systems
+        type: ImageBlock
+    motion: move-to-left
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        justifyContent: center
+        padding:
+          - pt-8
+          - pb-8
+          - pl-16
+          - pr-16
+      subtitle:
+        textAlign: center
+    type: ImageGallerySection
   - type: FeaturedItemsSection
     title:
       text: Research Areas
@@ -129,6 +165,48 @@ sections:
       self:
         padding: [pt-16, pb-16, pl-16, pr-16]
         justifyContent: center
+      subtitle:
+        textAlign: center
+  - type: GenericSection
+    title:
+      text: Built for real hardware documentation
+      color: text-dark
+      type: TitleBlock
+    subtitle: Project pages support video demos, CAD viewers, and technical reports
+    text: >
+      Like the original Content Ops layout, this portfolio uses media-rich sections with
+      autoplay previews, animated galleries, and hover-driven project cards — adapted for
+      robotics, circuits, CAD, and embedded systems work.
+    media:
+      title: Engineering portfolio preview
+      url: /images/placeholder-video.mp4
+      autoplay: true
+      loop: true
+      muted: true
+      controls: false
+      aspectRatio: '16:9'
+      styles:
+        self:
+          padding:
+            - pt-2
+            - pb-2
+            - pl-2
+            - pr-2
+          borderColor: border-dark
+          borderStyle: solid
+          borderWidth: 1
+          borderRadius: large
+      type: VideoBlock
+    badge:
+      label: Media Preview
+      color: text-primary
+      type: Badge
+    colors: bg-neutral-fg-dark
+    styles:
+      self:
+        flexDirection: col
+        justifyContent: center
+        padding: [pt-16, pb-16, pl-16, pr-16]
       subtitle:
         textAlign: center
   - type: GenericSection

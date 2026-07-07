@@ -27,6 +27,7 @@ sections:
     title: All Projects
     subtitle: Filter by tags on each project page
     filter: all
+    hoverEffect: shadow-plus-move-up
     colors: bg-neutral-fg-dark
     styles:
       self:

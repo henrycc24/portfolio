@@ -26,6 +26,7 @@ sections:
   - type: ProjectsGridSection
     title: Class Projects
     filter: class
+    hoverEffect: shadow-plus-move-up
     colors: bg-neutral-fg-dark
     styles:
       self:

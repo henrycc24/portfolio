@@ -31,7 +31,8 @@ export default function FeaturedItem(props) {
                     : undefined,
                 styles?.self?.borderRadius ? mapStyles({ borderRadius: styles?.self?.borderRadius }) : undefined,
                 styles?.self?.textAlign ? mapStyles({ textAlign: styles?.self?.textAlign }) : undefined,
-                'overflow-hidden'
+                'overflow-hidden',
+                'transition duration-200 ease-in hover:-translate-y-1.5 hover:shadow-2xl'
             )}
             data-sb-field-path={fieldPath}
         >

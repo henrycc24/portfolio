@@ -27,7 +27,7 @@ export default function ProjectHero({ title, summary, heroImage, heroVideo, tags
                         {heroVideo ? (
                             <VideoEmbed url={heroVideo} title={`${title} demo`} />
                         ) : heroImage ? (
-                            <div className="overflow-hidden rounded-xl border border-dark/10 shadow-lg">
+                            <div className="overflow-hidden rounded-xl border border-dark/10 shadow-lg sb-hero-float">
                                 <img src={heroImage} alt={title} className="w-full aspect-video object-cover" />
                             </div>
                         ) : (

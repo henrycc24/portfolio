@@ -26,6 +26,7 @@ sections:
   - type: ProjectsGridSection
     title: Research Projects
     filter: research
+    hoverEffect: shadow-plus-move-up
     colors: bg-neutral-fg-dark
     styles:
       self:

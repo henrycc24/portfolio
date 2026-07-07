@@ -1,0 +1,35 @@
+{
+    "logo": {
+        "url": "/images/logo-white.svg",
+        "altText": "Henry Calderon",
+        "type": "ImageBlock"
+    },
+    "text": "Electrical and Computer Engineering student building robots, embedded systems, and hardware-driven research.",
+    "primaryLinks": {
+        "title": "Navigate",
+        "links": [
+            { "label": "Projects", "url": "/projects/", "type": "Link", "style": "secondary", "icon": "arrowRight", "iconPosition": "right" },
+            { "label": "Research", "url": "/research/", "type": "Link", "style": "secondary", "icon": "arrowRight", "iconPosition": "right" },
+            { "label": "Classes", "url": "/classes/", "type": "Link", "style": "secondary", "icon": "arrowRight", "iconPosition": "right" },
+            { "label": "About", "url": "/about/", "type": "Link", "style": "secondary", "icon": "arrowRight", "iconPosition": "right" }
+        ],
+        "type": "FooterLinksGroup"
+    },
+    "secondaryLinks": {
+        "title": "Connect",
+        "links": [
+            { "label": "Contact", "url": "/contact/", "type": "Link", "style": "secondary", "icon": "arrowRight", "iconPosition": "right" },
+            { "label": "GitHub", "url": "https://github.com/henrycc24", "type": "Link", "style": "secondary", "icon": "arrowRight", "iconPosition": "right" }
+        ],
+        "type": "FooterLinksGroup"
+    },
+    "socialLinks": [
+        { "altText": "GitHub", "url": "https://github.com/henrycc24", "icon": "github", "type": "Social" },
+        { "altText": "LinkedIn", "url": "https://www.linkedin.com/in/henry-calderon", "icon": "linkedin", "type": "Social" },
+        { "altText": "Email", "url": "mailto:hcc54@cornell.edu", "icon": "mail", "type": "Social" }
+    ],
+    "legalLinks": [],
+    "copyrightText": "© Henry Calderon — Engineering Portfolio",
+    "colors": "bg-dark-fg-light",
+    "type": "Footer"
+}
